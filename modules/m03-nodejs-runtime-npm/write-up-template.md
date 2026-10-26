@@ -85,8 +85,6 @@ separate problem.
   ideas apart took care in the writing.
 - **Teaching without solving.** I had to describe how a bare server reads a body without handing
   over the finished routing and parsing. I used the shape of the problem plus questions.
-- **Windows signals.** A scripted `process.kill(pid, "SIGINT")` killed my test process without
-  running the handler, so I couldn't confirm the signal drill that way.
 - **What I didn't run.** I didn't run the `--inspect-brk` flow or the npm commands, so those
   sections come from knowledge, not a run.
 
